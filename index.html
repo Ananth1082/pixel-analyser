@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Image Upload Preview</title>
+  </head>
+  <body>
+    <h1>Upload and Preview Image</h1>
+
+    <input type="file" id="imageInput" accept="image/*" />
+    <canvas id="imageCanvas" width="500" height="500"></canvas>
+    <div>
+      <h1>Pixel Values</h1>
+      <h3>R: <span id="R-value"></span></h3>
+      <h3>G: <span id="G-value"></span></h3>
+      <h3>B: <span id="B-value"></span></h3>
+      <h3>A: <span id="A-value"></span></h3>
+      <div id="color-block"></div>
+    </div>
+
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
