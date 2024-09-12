@@ -3,12 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
     <title>Image Upload Preview</title>
+    <style>
+      #color-block {
+        width: 100px;
+        height: 100px;
+        border: 1px solid black;
+      }
+    </style>
   </head>
   <body>
     <h1>Upload and Preview Image</h1>
-
     <input type="file" id="imageInput" accept="image/*" />
     <canvas id="imageCanvas" width="500" height="500"></canvas>
     <div>
